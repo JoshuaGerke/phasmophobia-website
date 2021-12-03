@@ -1,4 +1,4 @@
 @extends('layouts.app')
-<div class="text-red-600">test</div>
 @section('content')
+  <div class="text-red-600">test</div>
 @endsection

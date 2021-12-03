@@ -19311,6 +19311,16 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
   \*******************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nReferenceError: body is not defined\n    at Object.<anonymous> (C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\tailwind.config.js:12:17)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\tailwindcss\\lib\\index.js:83:107\n    at tailwindcss (C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\tailwindcss\\lib\\index.js:96:36)\n    at Processor.normalize (C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\postcss\\lib\\processor.js:36:13)\n    at processResult (C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\webpack\\lib\\NormalModule.js:751:19)\n    at C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\webpack\\lib\\NormalModule.js:853:5\n    at C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (C:\\Users\\Comma\\Documents\\Git Repos\\phasmopobia-website\\node_modules\\postcss-loader\\dist\\index.js:142:7)");
+
+/***/ }),
+
+/***/ "./resources/css/components/fonts.css":
+/*!********************************************!*\
+  !*** ./resources/css/components/fonts.css ***!
+  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -19636,7 +19646,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/app": 0
+/******/ 			"css/components/fonts": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -19686,8 +19696,9 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/components/fonts"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/components/fonts"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/components/fonts"], () => (__webpack_require__("./resources/css/components/fonts.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

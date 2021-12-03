@@ -7,7 +7,18 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                body,
+                sans,
+                serif,
+                mono,
+                display: ["Yahfie", "Arial"],
+            },
+            backgroundImage: {
+                "main-bg": "url(/dist/img/main/cover_back_main)",
+            },
+        },
     },
     variants: {
         extend: {},
