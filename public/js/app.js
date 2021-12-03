@@ -36,7 +36,10 @@ if (routeName === "main.start") __webpack_require__(/*! ./start */ "./resources/
 /***/ (() => {
 
 var platform;
-$(window).on("resize", function () {
+$(window).on("resize", checkDevice);
+$(window).on("load", checkDevice);
+
+function checkDevice() {
   var x = 2048;
   var x2 = window.innerWidth;
   var x3 = x2 / x;
@@ -50,7 +53,7 @@ $(window).on("resize", function () {
   if (platform === "DESKTOP") {
     scalePC();
   } else {}
-});
+}
 
 function scalePC() {
   var x = 2048;

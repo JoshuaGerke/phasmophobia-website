@@ -702,6 +702,9 @@ video {
 .bg-main-board {
 	background-image: url(/img/main/back_main.png);
 }
+.bg-main-board-dev {
+	background-image: url(/img/main/back_main.png);
+}
 .bg-cover {
 	background-size: cover;
 }

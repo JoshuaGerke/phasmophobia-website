@@ -1,6 +1,9 @@
 let platform;
 
-$(window).on("resize", function () {
+$(window).on("resize", checkDevice);
+$(window).on("load", checkDevice);
+
+function checkDevice() {
     let x = 2048;
     let x2 = window.innerWidth;
     let x3 = x2 / x;
@@ -14,7 +17,7 @@ $(window).on("resize", function () {
         scalePC();
     } else {
     }
-});
+}
 
 function scalePC() {
     let x = 2048;
