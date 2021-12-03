@@ -18,7 +18,11 @@ module.exports = {
             backgroundImage: {
                 "main-bg": "url(/img/main/cover_back_main.png)",
                 "main-board": "url(/img/main/back_main.png)",
-                "main-board-dev": "url(/img/main/back_main.png)",
+                "main-board-dev": "url(/img/main/back_main2.png)",
+                "main-infobox": "url(/img/main/info_box.png)",
+                "main-updatebox": "url(/img/main/update_box.png)",
+                "button-1": "url(/img/buttons/button1.png)",
+                "button-1-hover": "url(/img/buttons/button1_hover.png)",
             },
         },
     },

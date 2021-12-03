@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+App::setLocale("de");
 Route::group(['as' => 'main.'], function () {
     Route::get('/', [HomeController::class, 'index'])->name('start');
 });

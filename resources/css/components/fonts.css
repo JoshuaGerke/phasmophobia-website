@@ -10,3 +10,9 @@
     font-style: normal;
     font-display: swap;
 }
+
+.phasmoFont {
+    color: #0d1218;
+    transform: scale(1.15, 0.9);
+    opacity: 0.95;
+}
