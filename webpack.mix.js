@@ -17,13 +17,11 @@ mix.webpackConfig({
     },
 });
 
-mix.js("resources/js/app.js", "public/js").postCss(
-    "resources/css/app.css",
-    "public/css",
-    [require("tailwindcss")]
-);
+mix.js("resources/js/app.js", "public/js")
+    .postCss("resources/css/app.css", "public/css", [require("tailwindcss")])
+    .postCss("resources/css/components/fonts.css", "public/css/components");
 
-if (false) {
+if (true) {
     mix.copyDirectory("resources/fonts", "public/fonts");
     mix.copyDirectory("resources/img", "public/img");
 }

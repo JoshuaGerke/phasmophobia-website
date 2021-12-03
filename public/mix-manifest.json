@@ -1,4 +1,10 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/components/fonts.css": "/css/components/fonts.css",
+    "/css/app.css": "/css/app.css",
+    "/fonts/Yahfie.eot": "/fonts/Yahfie.eot",
+    "/fonts/Yahfie.svg": "/fonts/Yahfie.svg",
+    "/fonts/Yahfie.ttf": "/fonts/Yahfie.ttf",
+    "/fonts/Yahfie.woff": "/fonts/Yahfie.woff",
+    "/fonts/Yahfie.woff2": "/fonts/Yahfie.woff2"
 }

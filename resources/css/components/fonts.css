@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Yahfie";
+    src: url("/fonts/Yahfie.eot");
+    src: url("/fonts/Yahfie.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/Yahfie.woff2") format("woff2"),
+        url("/fonts/Yahfie.woff") format("woff"),
+        url("/fonts/Yahfie.ttf") format("truetype"),
+        url("/fonts/Yahfie.svg#Yahfie") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.phasmoFont {
+    color: #0d1218;
+    transform: scale(1.15, 0.9);
+    opacity: 0.95;
+}
