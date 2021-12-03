@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-main-bg antialiased">
-  <div class="bg-main-board bg-cover w-full h-screen">
+  <div class="bg-main-board bg-cover bg-no-repeat bg-center h-[1079px] w-[2048px] absolute text-center" id="main-board">
     <input id="routeName" type="hidden" value="{{ Route::currentRouteName() }}">
     @section('content')
 

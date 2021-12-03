@@ -12,6 +12,8 @@ window.jQuery = __webpack_require__(/*! ./vendor/jquery */ "./resources/js/vendo
 
 __webpack_require__(/*! ./helpers */ "./resources/js/helpers.js");
 
+__webpack_require__(/*! ./scaler */ "./resources/js/scaler.js");
+
 var routeName = $("#routeName").val();
 if (routeName === "main.start") __webpack_require__(/*! ./start */ "./resources/js/start.js");
 
@@ -24,6 +26,60 @@ if (routeName === "main.start") __webpack_require__(/*! ./start */ "./resources/
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ "./resources/js/scaler.js":
+/*!********************************!*\
+  !*** ./resources/js/scaler.js ***!
+  \********************************/
+/***/ (() => {
+
+var platform;
+$(window).on("resize", function () {
+  var x = 2048;
+  var x2 = window.innerWidth;
+  var x3 = x2 / x;
+
+  if (x3 < 0.4) {
+    platform = "PHONE";
+  } else {
+    platform = "DESKTOP";
+  }
+
+  if (platform === "DESKTOP") {
+    scalePC();
+  } else {}
+});
+
+function scalePC() {
+  var x = 2048;
+  var y = 1079;
+  var x2 = window.innerWidth;
+  var y2 = window.innerHeight;
+  var x3 = x2 / x;
+  var y3 = y2 / y;
+  var bw = window.innerWidth;
+  var p = bw / x; //WIDTH SCALE
+
+  var m = bw / 32 - 64; //HEIGHT REM
+
+  var hw = window.innerHeight;
+  var g = hw / y; //HEIGHT SCALE
+
+  var j = hw / 31.73 - 34; //HEIGHT REM
+
+  if (x3 < y3) {
+    $("#main-board").css("transform", "scale(".concat(p, ")"));
+  } else {
+    $("#main-board").css("transform", "scale(".concat(g, ")"));
+  }
+
+  $("#main-board").css("left", "".concat(m, "rem"));
+  $("#main-board").css("top", "".concat(j, "rem"));
+  $(window).scrollLeft();
+  $(window).scrollTop();
+}
 
 /***/ }),
 
