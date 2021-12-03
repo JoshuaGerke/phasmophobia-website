@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
   <link href="{{ asset('css/components/fonts.css') }}" rel="stylesheet">
+  <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
-<body class="main-bg antialiased">
-  <div class="">
+<body class="bg-main-bg antialiased">
+  <div class="bg-main-board bg-cover w-full h-screen">
+    <input id="routeName" type="hidden" value="{{ Route::currentRouteName() }}">
     @section('content')
+
     @show
   </div>
 </body>

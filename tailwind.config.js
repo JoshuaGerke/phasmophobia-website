@@ -9,14 +9,16 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                body,
-                sans,
-                serif,
-                mono,
+                body: ["Yahfie", "Arial"],
+                sans: ["Yahfie", "Arial"],
+                serif: ["Yahfie", "Arial"],
+                mono: ["Yahfie", "Arial"],
                 display: ["Yahfie", "Arial"],
             },
             backgroundImage: {
-                "main-bg": "url(/dist/img/main/cover_back_main)",
+                "main-bg": "url(/img/main/cover_back_main.png)",
+                "main-board": "url(/img/main/back_main.png)",
+                "main-board-dev": "url(/img/main/back_main.png)",
             },
         },
     },
