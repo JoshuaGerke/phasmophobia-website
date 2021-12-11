@@ -15,7 +15,7 @@ return [
     Wir kümmern uns nur um die deutsche Community!<br/>
     <br/>
     Discord:<br/>
-    <a href="https://discord.gg/t9bRJcuq7k" style="color: #000">discord.gg/t9bRJcuq7k</a>
+    <a href="https://discord.gg/YRAgFtSYMW" style="color: #000">discord.gg/t9bRJcuq7k</a>
     '
   ],
   'update' => [
