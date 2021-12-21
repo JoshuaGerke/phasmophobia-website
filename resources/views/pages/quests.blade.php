@@ -4,4 +4,5 @@
   <div class="flex ml-12 mr-8">
 
   </div>
+  <x-back-button />
 @endsection

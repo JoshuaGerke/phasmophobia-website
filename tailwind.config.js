@@ -23,6 +23,9 @@ module.exports = {
                 "main-updatebox": "url(/img/main/update_box.png)",
                 "button-1": "url(/img/buttons/button1.png)",
                 "button-1-hover": "url(/img/buttons/button1_hover.png)",
+                "back-button-1": "url(/img/buttons/back_button1.png)",
+                "back-button-1-hover":
+                    "url(/img/buttons/back_button1_hover.png)",
             },
         },
     },
