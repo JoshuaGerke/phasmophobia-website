@@ -11,10 +11,10 @@
     </div>
     <div class="w-[38%] h-10">
       <x-start-button :message="__('start.select1')" target="/howToPlay" />
-      <x-start-button :message="__('start.select2')" target="/" />
-      <x-start-button :message="__('start.select3')" target="/" />
-      <x-start-button :message="__('start.select4')" target="/" />
-      <x-start-button :message="__('start.select5')" target="/" />
+      <x-start-button :message="__('start.select2')" target="/quests" />
+      <x-start-button :message="__('start.select3')" target="/items" />
+      <x-start-button :message="__('start.select4')" target="/ghosts" />
+      <x-start-button :message="__('start.select5')" target="/maps" />
       <x-start-button :message="__('start.select6')" target="/" />
     </div>
     <div class="w-[31%] h-10">

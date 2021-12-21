@@ -3,10 +3,10 @@
 return [
   'title' => 'Phasmo.de',
   'select1' => 'Wie wird gespielt?',
-  'select2' => 'Mehrspieler',
-  'select3' => 'Training',
-  'select4' => 'Ausrüstung kaufen',
-  'select5' => 'Optionen',
+  'select2' => 'Quests',
+  'select3' => 'Items',
+  'select4' => 'Geister',
+  'select5' => 'Karten',
   'select6' => 'Spiel verlassen',
   'info' => [
     'title' => 'Informationen',

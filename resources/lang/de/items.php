@@ -1,6 +1,7 @@
 <?php
 
 return [
+  'title' => "Items",
   'items' => [
     'D.O.T.S Projektor' => [
       'price' => 65,
