@@ -2,7 +2,7 @@
 
 return [
   'title' => 'Phasmo.de',
-  'select1' => 'Einzelspieler',
+  'select1' => 'Wie wird gespielt?',
   'select2' => 'Mehrspieler',
   'select3' => 'Training',
   'select4' => 'Ausrüstung kaufen',
